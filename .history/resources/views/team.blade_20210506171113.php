@@ -1,0 +1,45 @@
+<link href="assets/css/team.css" rel="stylesheet">
+<!-- about -->
+<div class="about">
+    <a class="bg_links social portfolio" href="https://www.rafaelalucas.com/dailyui" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links logo"></a>
+ </div>
+ <!-- end about -->
+ 
+ <div class="wrapper">
+ 
+    <section class="module-team">
+ 
+       <div class="team">
+          <h2 class="title">Meet our Team</h2>
+          <div class="team-cards">
+ 
+             <!-- Slider main container -->
+             <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper"></div>
+ 
+             </div>
+ 
+             <div class="swiper-pagination"></div>
+             <!-- If we need navigation buttons -->
+             <div class="navigation">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+             </div>
+          </div>
+ 
+       </div>
+ </div>
+ 
+ </section>
+ 
+ </div>

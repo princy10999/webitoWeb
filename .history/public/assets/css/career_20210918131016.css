@@ -1,0 +1,119 @@
+.main-page-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.main-page-header .page-header-content h1 {
+    font-size: 60px;
+    color: #252B33;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.main-page-header .page-header-content p {
+    font-size: 20px;
+    color: #252B33;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.main-page-header .page-header-content.careers-content-block h3 {
+    color: #252b33;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.main-page-header .page-header-content.careers-content-block span {
+    color: #F13C31;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.we-offer-section {
+    background: #fafafa;
+    margin: 0 0 100px;
+    padding: 100px 0;
+}
+
+.we-offer-section .we-offer-content {
+    text-align: center;
+}
+
+.we-offer-section .we-offer-content h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252b33;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.we-offer-section .we-offer-content p {
+    margin-top: 30px;
+    padding: 0 15%;
+    color: #252b33;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.position-listing {
+    max-width: 946px;
+    margin: 0 auto;
+}
+
+.position-listing .listing-block {
+    margin-top: 60px;
+}
+
+.position-listing .listing-block h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.position-listing .listing-box:last-child {
+    margin-bottom: 0;
+}
+
+.position-listing .listing-box a {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 26px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.position-listing .listing-box .position-name h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252b33;
+    margin-right: 30px;
+    line-height: 28px;
+}
+
+.position-listing .listing-box .position-number {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.position-listing .listing-box .position-number p {
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+.position-listing .listing-box a:hover {
+    background: #f13c31 !important;
+    color: white;
+}

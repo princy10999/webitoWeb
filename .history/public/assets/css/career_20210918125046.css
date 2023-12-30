@@ -1,0 +1,16 @@
+.main-page-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.main-page-header .page-header-content h1 {
+    font-size: 60px;
+    color: #252B33;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}

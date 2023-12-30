@@ -1,0 +1,655 @@
+:root {
+    --color-1: #0675e8;
+    --color-2: #fff;
+    --color-3: #f2f2f2;
+    --color-4: #00366f;
+    --color-5: #000000;
+    --color-6: #004289;
+    --color-7: #222;
+    --color-8: #74b5fc;
+    --color-9: #283d50;
+    --color-10: #556877;
+    --color-11: #ecf5ff;
+    --color-12: #111;
+    --color-13: #333;
+    --color-14: #004a99;
+    --color-15: #00458f;
+    --color-16: #003b7a;
+    --color-17: #999;
+    --color-18: #f8f9fa;
+    --color-19: #bfc1c2;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.blue-color {
+    color: var(--color-1);
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #06376B;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    color: var(--color-1);
+}
+
+
+/*Webito infotech Design page stylesheet */
+
+
+/* Designing section*/
+
+.page-header-content {
+    padding: 60px 0;
+}
+
+.main-page-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 80px 0;
+    height: 80vh;
+}
+
+.Designing-header {
+    font-size: 60px;
+    text-align: center;
+}
+
+.Designing-header h3 {
+    margin: 50px 20px 0 20px;
+}
+
+
+/* Designing section End*/
+
+
+/*The Difference section End*/
+
+.discovery-workshop-section {
+    padding-top: 120px;
+}
+
+.service-title-box {
+    text-align: center;
+}
+
+.discovery-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.discovery-workshop-section {
+    background-color: var(--color-18);
+}
+
+body.dark-mode .discovery-workshop-section {
+    background-color: var(--color-7);
+    color: var(--color-2);
+}
+
+
+/* body.dark-mode .discovery-workshop-section .head-title {
+    color: var(--color-2);
+} */
+
+
+/*The Difference section End*/
+
+
+/*Workshop section*/
+
+.workshop-service-section .service-box {
+    height: 80%;
+}
+
+.workshop-service-section .service-box:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.workshop-service-section {
+    padding: 120px 0;
+}
+
+.service-title-box h2 {
+    margin-bottom: 50px;
+}
+
+.service-box {
+    background-color: #f8f8f8;
+    padding: 30px;
+    margin: 20px;
+    text-align: start;
+}
+
+.service-box:hover {
+    box-shadow: 0 33px 30px -22px rgba(32, 35, 68, 0.16);
+}
+
+.service-box h4 {
+    color: #252b33;
+    font-size: 23px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin-bottom: 12px;
+}
+
+.service-box p {
+    margin: 0;
+}
+
+
+/*Workshop section End*/
+
+
+/*benefits discovery section */
+
+.discovery-benefits {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+
+.discovery-benefits,
+.benefits-services,
+.benefits-box {
+    margin-top: 30px;
+}
+
+.benefits-box h4 {
+    color: #252b33;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin: 30px;
+}
+
+.benefits-services {
+    padding-bottom: 60px;
+}
+
+
+/*benefits discovery section End*/
+
+
+/*Agile Development section */
+
+.discovery-design-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.work-more-sec h3 {
+    width: 80%;
+    margin: 0 auto;
+    color: #252b33;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    border-top: 2px #eee solid;
+    padding-top: 80px;
+}
+
+.discovery-design-development {
+    padding-bottom: 120px;
+}
+
+
+/*Agile Development section End*/
+
+
+/*Work process section section */
+
+.work-process-section {
+    padding: 120px 0;
+    background-color: #f8f8f8;
+}
+
+.work-process-img {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/* Idea Owne Image*/
+
+
+/*Target Audience row1*/
+
+.work-process-services {
+    margin-top: 100px;
+    background-color: red;
+}
+
+.target-audience-box {
+    text-align: start;
+}
+
+.separator-line {
+    margin-bottom: 40px;
+}
+
+.separator-line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--color-1);
+    display: block;
+    margin-top: 40px;
+}
+
+.work-process-point h3 {
+    color: #323a45;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin-bottom: 12px;
+}
+
+.work-process-info {
+    padding-top: 30px;
+}
+
+
+/*Target Audience row1 End*/
+
+
+/*Work process arrow section */
+
+.work-process-section .work-process-arrow {
+    text-align: center;
+}
+
+
+/*Work process arrow section End*/
+
+
+/*Blueprint Core row2 */
+
+
+/*Successful Designs */
+
+
+/*Successful Designs */
+
+.cs-listing-img img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*Successful Designs */
+
+
+/*Successful Designs */
+
+
+/*Blueprint Core row2 End*/
+
+
+/*Work process arrow section */
+
+.work-process-section .work-process-arrow.right-arrow {
+    text-align: center;
+    transform: rotateY( 180deg);
+}
+
+
+/*Work process arrow section End*/
+
+
+/*Interface  row3 */
+
+
+/*Interface  row3 */
+
+.design-work-block {
+    padding-top: 80px;
+}
+.work-img-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.work-img-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.work-process-info-right{
+    /* display: flex; */
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.work-process-info-left{
+    /* display: flex; */
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.work-process-section .design-work-block .work-img {
+    text-align: right;
+}
+
+
+/*Work process section section End*/
+
+
+/*Clients' praise is Music section section */
+
+
+/*Clients' praise is Music section section */
+
+.design-testimonial {
+    background-color: var(--color-2);
+    padding: 120px 0;
+    text-align: center;
+}
+
+
+/*Clients' praise is Music section section End*/
+
+
+/*Good to Know section section */
+
+
+/*Good to Know section section */
+
+
+/*Good to Know section section End*/
+
+
+/*Successful Designs section section */
+
+
+/*Successful Designs section section */
+
+.wwd-content-center {
+    text-align: center;
+}
+
+.our-work-listing-section .case-listing-col {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.our-work-listing-section .cs-project-detail {
+    text-align: center;
+}
+
+.wwd-content-center h2 {
+    margin-bottom: 40px;
+}
+
+.cs-technology span {
+    border: 1px solid #dae1e4;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #81959e;
+    font-weight: 400;
+    padding: 1px 10px;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+.cs-project-detail p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #81959e;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 5px;
+    min-height: 26px;
+}
+
+.cs-project-detail a {
+    color: var(--color-1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs-technology {
+    margin-top: 15px;
+    font-weight: 600
+}
+
+.center-btn {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-work-listing-section {
+    padding-bottom: 100px;
+}
+
+#footer .footer-top .footer-contact p {
+    line-height: 26px;
+    color: var(--color-2);
+}
+
+.fa {
+    color: var(--color-2);
+}
+
+strong {
+    color: var(--color-2);
+}
+
+.footer-newsletter p {
+    color: var(--color-2);
+}
+
+.copyright {
+    color: var(--color-2);
+}
+
+
+/*Successful Designs section section End*/
+
+
+/*Successful Designs  End*/
+
+
+/*Successful Designs  End*/
+
+
+/*Successful Designs  End*/
+
+
+/* media query  */
+
+@media only screen and (max-width: 1200px) {
+    .float-right {
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .work-more-sec h3 {
+        line-height: normal;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+}
+
+
+/* media query End*/
+
+.dark-mode-btn .fa-sun-o {
+    color: var(--color-2);
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 22px;
+    opacity: 0;
+}
+
+.dark-mode-btn .fa-moon-o {
+    color: var(--color-12);
+    margin-left: -20px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+body.dark-mode .dark-mode-btn .fa-moon-o {
+    opacity: 0;
+}
+
+body.dark-mode .dark-mode-btn .fa-sun-o {
+    opacity: 1;
+}
+
+body.dark-mode .discovery-benefits{
+    color: var(--color-2);
+    background-color: var(--color-12);
+}
+
+body.dark-mode .benefits-box h4{
+    color: var(--color-1);
+}
+
+body.dark-mode .work-process-section{
+    color: var(--color-2);
+    background-color: var(--color-12);
+}
+
+body.dark-mode .work-process-point h3{
+    color: var(--color-1);
+
+}
+
+body.dark-mode .design-testimonial{
+    background-color: var(--color-7);
+
+}
+
+.preloader {
+    display: flex;
+    animation: spin-1 linear infinite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    color: #337AB7;
+    z-index: -99999;
+}
+.preloader,
+.preloader-ring {
+    transform-style: preserve-3d;
+}
+.preloader-ring {
+    animation: spin-2 4s linear infinite;
+    position: relative;
+    height: 60px;
+    width: 20px;
+}
+.preloader-ring:nth-child(even) {
+    animation-direction: reverse;
+}
+.preloader-sector {
+    font-size: 40px;
+    line-height: 60px;
+    font-family: Consolas, Lucida Console, Menlo, Monaco, monospace;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    transform: translateZ(160px);
+}
+.preloader-sector,
+.preloader-sector:empty:before {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.preloader-sector:empty:before {
+    background: linear-gradient(transparent 50%, #BFE2FF 50% 55%, transparent 55%);
+    content: "";
+}
+@keyframes spin-1 {
+    from {
+        transform: rotateY(0) rotateX(30deg);
+    }
+    to {
+        transform: rotateY(1turn) rotateX(30deg);
+    }
+}
+@keyframes spin-2 {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(1turn);
+    }
+}

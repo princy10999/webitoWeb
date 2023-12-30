@@ -1,0 +1,644 @@
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+
+/* Desktop Navigation */
+
+.main-nav {
+    /* Drop Down */
+    /* Deep Drop Down */
+}
+
+.main-nav,
+.main-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav>ul>li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+}
+
+.main-nav .menu-c {
+    display: block;
+    position: relative;
+    color: var(--color-5);
+    padding: 0.625rem 0.7rem;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+body.dark-mode .menu-c {
+    color: var(--color-2);
+}
+
+.main-nav a:hover,
+.main-nav .active>a,
+.main-nav li:hover>a {
+    color: var(--color-1);
+    text-decoration: none;
+}
+
+.main-nav .drop-down .dropdown-title {
+    display: block;
+    position: relative;
+    color: var(--color-5);
+    padding: 10px 12px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+body.dark-mode .main-nav .drop-down .dropdown-title {
+    color: var(--color-2);
+}
+
+.main-nav .drop-down .dropdown-content {
+    display: none;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    border-radius: 6px;
+    /* background-color: var(--color-18); */
+    background-color: var(--color-2);
+    box-shadow: 0px 8px 20px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 55px;
+    left: -280px;
+    padding: 12px 7px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-nav .drop-down .fade-in {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.main-nav .drop-down .dropdown-content tr td {
+    padding: 4px 35px;
+}
+
+body.dark-mode .drop-down .dropdown-content {
+    background: var(--color-7);
+    box-shadow: 0px 8px 20px 12px rgba(255, 255, 255, 0.2);
+}
+
+.main-nav .drop-down .dropdown-content a {
+    display: inline-block;
+}
+
+.main-nav .drop-down .dropdown-content .sub-dropdown-title {
+    margin-left: 12px;
+    color: var(--color-5);
+    font-size: 17px;
+}
+
+body.dark-mode .main-nav .drop-down .dropdown-content a {
+    color: var(--color-2);
+}
+
+.main-nav .drop-down .dropdown-content .fa-mobile {
+    font-size: 20px;
+    margin-left: -25px;
+    color: var(--color-1);
+}
+
+.main-nav .drop-down .dropdown-content .fa-code {
+    margin-left: -30px;
+    font-weight: 1000;
+    color: var(--color-1);
+    font-size: 17px;
+}
+
+.main-nav .drop-down .dropdown-content .fa-cogs,
+.main-nav .drop-down .dropdown-content .fa-database,
+.main-nav .drop-down .dropdown-content .fa-laptop,
+.main-nav .drop-down .dropdown-content .fa-cloud {
+    margin-left: -30px;
+    color: var(--color-1);
+    font-size: 17px;
+}
+
+.main-nav .drop-down .dropdown-content .sub-dropdown-content {
+    text-align: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.main-nav .drop-down .dropdown-content .sub-dropdown-content a {
+    /* color:var(--color-6); */
+    color: var(--color-5);
+    font-size: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.main-nav .drop-down .dropdown-content .sub-dropdown-title a {
+    /* color:var(--color-6); */
+    color: var(--color-5);
+}
+
+.main-nav .drop-down .dropdown-content .sub-dropdown-content a:hover {
+    color: var(--color-1);
+    transform: scale(1.1);
+}
+
+.drop-down:hover .dropdown-content {
+    display: block;
+}
+
+.drop-down:hover .dropdown-content {
+    display: block;
+}
+
+.drop-down:hover .dropdown-title {
+    color: var(--color-1);
+}
+
+.dropdown-content .aerrow::after {
+    content: '';
+    position: absolute;
+    top: -17px;
+    display: flex;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid var(--color-2);
+    border-top: 0px solid transparent;
+}
+
+body.dark-mode .dropdown-content .aerrow::after {
+    border-bottom: 20px solid var(--color-7);
+}
+
+.dropdown-content .aerrows::after {
+    content: '';
+    position: absolute;
+    top: -17px;
+    display: flex;
+    left: 40%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid var(--color-2);
+    border-top: 0px solid transparent;
+}
+
+body.dark-mode .dropdown-content .aerrows::after {
+    border-bottom: 20px solid var(--color-7);
+}
+
+.main-nav .contact-us-btn {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border-radius: 25px;
+    border: 2px solid var(--color-1);
+}
+
+.main-nav .contact-us-btn:hover {
+    background: none;
+    color: var(--color-6);
+}
+
+body.dark-mode .main-nav .contact-us-btn:hover {
+    color: var(--color-1);
+}
+
+.main-nav .drop-down .dropdown-content .link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--color-1);
+}
+
+.main-nav .drop-down .dropdown-content .link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+@media(max-width:991px) {
+    .dropdown-content table {
+        display: block;
+    }
+}
+
+
+/* .main-nav .drop-down ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 30px);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px 0;
+  background: var(--color-2);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: ease all 0.3s;
+}
+
+.main-nav .drop-down:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.main-nav .drop-down li {
+  min-width: 180px;
+  position: relative;
+}
+
+.main-nav .drop-down ul a {
+  padding: 10px 20px;
+  font-size: 13px;
+  color: var(--color-6);
+}
+
+.main-nav .drop-down ul a:hover,
+.main-nav .drop-down ul .active > a,
+.main-nav .drop-down ul li:hover > a {
+  color: var(--color-1);
+} */
+
+
+/* .main-nav .drop-down > a:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  padding-left: 10px;
+} */
+
+
+/* .main-nav .drop-down .drop-down ul {
+  top: 0;
+  left: calc(100% - 30px);
+}
+
+.main-nav .drop-down .drop-down:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+}
+
+.main-nav .drop-down .drop-down > a {
+  padding-right: 35px;
+}
+
+.main-nav .drop-down .drop-down > a:after {
+  content: "\f105";
+  position: absolute;
+  right: 15px;
+} */
+
+
+/* Mobile Navigation */
+/*
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow-y: auto;
+    left: -260px;
+    width: 260px;
+    padding-top: 18px;
+    background: rgba(19, 39, 57, 0.8);
+    transition: 0.4s;
+}
+
+.mobile-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-nav a,
+.mobile-nav .dropdown-title {
+    display: block;
+    position: relative;
+    color: var(--color-2);
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.mobile-nav .dropdown-content {
+    display: none;
+}
+
+.mobile-nav .drop-down .fa {
+    display: none;
+}
+
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
+    color: var(--color-8);
+    text-decoration: none;
+}
+
+.mobile-nav .drop-down .dropdown-title:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    padding-left: 10px;
+    position: absolute;
+    right: 15px;
+}
+
+.mobile-nav .active.drop-down .dropdown-title:after {
+    content: "\f077";
+}
+
+.mobile-nav .drop-down .dropdown-title {
+    padding-right: 35px;
+}
+
+.mobile-nav .drop-down .dropdown-content {
+    display: none;
+    overflow: hidden;
+}
+
+.mobile-nav .drop-down .dropdown-content .sub-dropdown-title {
+    padding-left: 20px;
+}
+
+.mobile-nav .drop-down .dropdown-content .sub-dropdown-title {
+    color: var(--color-2);
+    float: left;
+    display: block;
+}
+
+.mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+    opacity: 1;
+}
+
+.mobile-nav-toggle i {
+    margin: 18px 18px 0 0;
+    color: var(--color-6);
+}
+
+.mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(19, 39, 57, 0.8);
+    overflow: hidden;
+    display: none;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+    left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+    color: var(--color-2);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body> --}}
+
+
+        {{-- <button type="button" class="mobile-nav-toggle d-lg-none">
+            <i class="fa fa-bars"></i>
+        </button>
+            <header id="header" class="fixed-top">
+                <div class="container">
+
+                    <div class="logo float-left"> --}}
+                        <!-- Uncomment below if you prefer to use an image logo -->
+                        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+
+                        {{-- <a href="#intro" class="scrollto"><img src="assets/img/index/logo/logo.png" alt="Webito-Infotech" class="img-fluid"></a>
+                    </div>
+
+                    <nav class="main-nav float-right d-none d-lg-block">
+                        <ul>
+                            <li class="active"><a href="/#intro" class="menu-c">Home</a></li>
+                            <li ><a href="/#about" class="menu-c">About Us</a></li>
+                            <li class="drop-down"><span class="dropdown-title"><a href="/services">Services</a></span>
+                                <div class="dropdown-content fade-in">
+                                    <div class="aerrows"></div>
+                                    <table>
+                                        <ul>
+                                            <tr>
+                                                <td>
+                                                    <li><i class="fa fa-mobile"></i><strong><span class="sub-dropdown-title"><a href="/mobileapp_development" class="link">Mobile Apps</a></span></strong>
+                                                    </li>
+                                                </td>
+                                                <td>
+                                                    <li><i class="fa fa-code"></i><strong><span class="sub-dropdown-title"><a href="/web_development" class="link">Web Development</a></span></strong>
+                                                    </li>
+                                                </td>
+                                                <td>
+                                                    <li><i class="fa fa-laptop"></i><strong><span class="sub-dropdown-title"><a href="/design_development" class="link">Design</a></span></strong>
+                                                    </li>
+                                                </td>
+                                                <td>
+                                                    <li><i class="fa fa-cloud"></i><strong><span class="sub-dropdown-title"><a href="/devops_development" class="link">DevOps </a></span></strong>
+                                                    </li>
+                                                </td>
+                                            </tr>
+                                        </ul>
+                                        <tr>
+                                            <td>
+                                                <ul class="sub-dropdown-content" style="margin-bottom: 80px;">
+                                                    <li><a href="mobile-app-development.html#native-ios-apps" class="link">Native ios Apps</a></li>
+                                                    <li><a href="mobile-app-development.html#native-android-apps" class="link">Native Android Apps</a></li>
+                                                    <li><a href="mobile-app-development.html#cross-platform" class="link">Cross Platform</a></li>
+                                                    <li><a href="mobile-app-development.html#hybrid-app-dev" class="link">Hybrid Apps</a></li>
+                                                    <li><a href="mobile-app-development.html#pwa-app-dev" class="link">PWA</a></li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content" style="margin-bottom: 80px;">
+                                                    <li><a href="web-development.html#enterprise-solution" class="link">Enterprise Solutions</a></li>
+                                                    <li><a href="web-development.html#e-commerce" class="link">ECommerce</a></li>
+                                                    <li><a href="web-development.html#mobile-back-api" class="link">API & Backend</a></li>
+                                                    <li><a href="web-development.html#content-management" class="link">CMS</a></li>
+                                                    <li><a href="web-development.html#custom-web-dev" class="link">Custom Development</a></li>
+
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">Angluar</a></li>
+                                                    <li><a href="#" class="link">React JS</a></li>
+                                                    <li><a href="#" class="link">vue</a></li>
+                                                    <li><a href="#" class="link">Typescript</a></li>
+                                                    <li><a href="#" class="link">WPF</a></li>
+                                                    <li><a href="#" class="link">HTML 5</a></li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">Setup</a></li>
+                                                    <li><a href="#" class="link">Automation</a></li>
+                                                    <li><a href="#" class="link">Continuous Delivery</a></li>
+                                                    <li><a href="#" class="link">Monitoring</a></li>
+                                                    <li><a href="#" class="link">AWS</a></li>
+                                                    <li><a href="#" class="link">Google Cloud</a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li><a href="/#portfolio" class="menu-c">Portfolio</a></li>
+                            <li><a href="/#team" class="menu-c">Team</a></li>
+                            <li class="drop-down"><span class="dropdown-title"><a href="/technology">Technology</a></span>
+                                <div class="dropdown-content fade-in">
+                                    <div class="aerrow"></div>
+                                    <table>
+                                        <tr>
+                                            <td><i class="fa fa-mobile"></i><strong><span class="sub-dropdown-title"><a href="/mobile" class="link">Mobile</a></span></strong>
+
+                                            </td>
+                                            <td><i class="fa fa-cogs"></i><strong><span class="sub-dropdown-title"><a href="/backend" class="link">Back-end</a></span></strong>
+
+                                            </td>
+                                            <td><i class="fa fa-code"></i><strong><span class="sub-dropdown-title"><a href="/frontend" class="link">Front-end</a></span></strong>
+
+                                            </td>
+                                            <td><i class="fa fa-database"></i><strong><span class="sub-dropdown-title"><a href="/database" class="link">Database</a></span></strong>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">ios</a></li>
+                                                    <li><a href="#" class="link">android</a></li>
+                                                    <li><a href="#" class="link">react-native</a></li>
+                                                    <li><a href="#" class="link">Flutter</a></li>
+                                                    <li><a href="#" class="link">Ionic</a></li>
+                                                    <li><a href="#" class="link">xamarin</a></li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">node</a></li>
+                                                    <li><a href="#" class="link">php</a></li>
+                                                    <li><a href="#" class="link">.net</a></li>
+                                                    <li><a href="#" class="link">java</a></li>
+                                                    <li><a href="#" class="link">python</a></li>
+                                                    <li><a href="#" class="link">Rails</a></li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">Angluar</a></li>
+                                                    <li><a href="#" class="link">React JS</a></li>
+                                                    <li><a href="#" class="link">vue</a></li>
+                                                    <li><a href="#" class="link">Typescript</a></li>
+                                                    <li><a href="#" class="link">WPF</a></li>
+                                                    <li><a href="#" class="link">HTML 5</a></li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul class="sub-dropdown-content">
+                                                    <li><a href="#" class="link">MYSQL</a></li>
+                                                    <li><a href="#" class="link">Dynamo DB</a></li>
+                                                    <li><a href="#" class="link">Postgre SQL</a></li>
+                                                    <li><a href="#" class="link">Oracle</a></li>
+                                                    <li><a href="#" class="link">Mongo DB</a></li>
+                                                    <li><a href="#" class="link">Reddis</a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li><a href="index.html#contact" class="menu-c contact-us-btn">Contact Us</a></li>
+                            <li class="dark-mode-btn" onclick="darkmode()"><i class="fa fa-sun-o"></i><i class="fa fa-moon-o"></i></li>
+                        </ul>
+                    </nav>
+                    <script>
+                        $(document).ready(function() {
+                            $('li').click(function() {
+                                $('li.active').removeClass("active");
+                                $(this).addClass("active");
+                            });
+                        });
+                    </script> --}}
+                    <!-- .main-nav -->
+                </div>
+                <!-- <div class="dark-mode">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+              <i class="fa fa-moon-o"></i>
+              <i class="fa fa-sun-o"></i>
+              <div class="ball"></div>
+            </label>
+          </div> -->
+            </header>
+    {{-- </body>
+    </html> --}}

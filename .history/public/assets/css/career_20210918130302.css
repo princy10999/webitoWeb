@@ -1,0 +1,85 @@
+.main-page-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.main-page-header .page-header-content h1 {
+    font-size: 60px;
+    color: #252B33;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.main-page-header .page-header-content p {
+    font-size: 20px;
+    color: #252B33;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.main-page-header .page-header-content.careers-content-block h3 {
+    color: #252b33;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.main-page-header .page-header-content.careers-content-block span {
+    color: #F13C31;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.we-offer-section[_ngcontent-c3] {
+    background: #fafafa;
+    margin: 0 0 100px;
+    padding: 100px 0;
+}
+
+.we-offer-section[_ngcontent-c3] .we-offer-content[_ngcontent-c3] {
+    text-align: center;
+}
+
+.we-offer-section[_ngcontent-c3] .we-offer-content[_ngcontent-c3] h2[_ngcontent-c3] {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252b33;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.we-offer-section[_ngcontent-c3] .we-offer-content[_ngcontent-c3] p[_ngcontent-c3] {
+    margin-top: 30px;
+    padding: 0 15%;
+    color: #252b33;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.position-listing[_ngcontent-c3] {
+    max-width: 946px;
+    margin: 0 auto;
+}
+
+.position-listing[_ngcontent-c3] .listing-block[_ngcontent-c3] {
+    margin-top: 60px;
+}
+
+.position-listing[_ngcontent-c3] .listing-block[_ngcontent-c3] h3[_ngcontent-c3] {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.position-listing[_ngcontent-c3] .listing-box[_ngcontent-c3]:last-child {
+    margin-bottom: 0;
+}
